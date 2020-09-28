@@ -2,20 +2,23 @@ import React from 'react';
 import Nav from '../components/Nav';
 
 const SSRPage = (props) => {
+    console.log(props);
     return(
         <div>
             <Nav />
-            <h1>Next stars: {props.stars}</h1>
+            <ul>
+                {props.posts.map(dato => <li><p>{dato.userId}</p><h2>{dato.title}</h2><p>{dato.body}</p></li>)}
+            </ul>
         </div>
     )
 };
 
 export async function getStaticProps() {
-    const res = await fetch('https://api.github.com/repos/vercel/next.js')
+    const res = await fetch('https://jsonplaceholder.typicode.com/posts')
     const json = await res.json()
 
     //return { stars: json.stargazers_count }
-    return { props: { stars: json.stargazers_count } }
+    return { props: { posts: json } }
 }
 
 export default SSRPage;

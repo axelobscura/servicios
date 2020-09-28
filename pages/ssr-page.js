@@ -2,12 +2,11 @@ import React from 'react';
 import Nav from '../components/Nav';
 
 const SSRPage = (props) => {
-    console.log(props);
     return(
         <div>
             <Nav />
             <ul>
-                {props.posts.map(dato => <li><p>{dato.userId}</p><h2>{dato.title}</h2><p>{dato.body}</p></li>)}
+                {props.posts.map((dato, index) => <li key={index}><p>{dato.userId}</p><h2>{dato.title}</h2><p>{dato.body}</p></li>)}
             </ul>
         </div>
     )

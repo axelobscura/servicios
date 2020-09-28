@@ -12,7 +12,7 @@ export default function Home() {
       <Nav />
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to Axel.js!
         </h1>
       </main>
     </div>

@@ -1,14 +1,16 @@
 import React from 'react';
+import Layout, { siteTitle } from '../components/layout';
 import Nav from '../components/Nav';
 
 const SSRPage = (props) => {
     return(
-        <div>
-            <Nav />
-            <ul>
-                {props.posts.map((dato, index) => <li key={index}><p>{dato.userId}</p><h2>{dato.title}</h2><p>{dato.body}</p></li>)}
-            </ul>
-        </div>
+        <Layout>
+            <div>
+                <ul>
+                    {props.posts.map((dato, index) => <li key={index}><p>{dato.userId}</p><h2>{dato.title}</h2><p>{dato.body}</p></li>)}
+                </ul>
+            </div>
+        </Layout>
     )
 };
 

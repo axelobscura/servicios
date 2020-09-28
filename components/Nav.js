@@ -12,12 +12,12 @@ const Nav = () => {
                 </li>
                 <li>
                     <Link href="/ssr-page">
-                        <a>SSR</a>
+                        <a>Server Side Rendering</a>
                     </Link>
                 </li>
             </ul>
         </nav>
     )
-}
+};
 
 export default Nav;

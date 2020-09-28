@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout, { siteTitle } from '../components/layout';
+import Layout from '../components/Layout';
 import Nav from '../components/Nav';
 
 const SSRPage = (props) => {

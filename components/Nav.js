@@ -5,8 +5,12 @@ import Nav from 'react-bootstrap/Nav';
 
 const Navegador = () => {
     return(
-        <Navbar bg="dark" variant="dark">
-            <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+        <Navbar bg="light" variant="dark">
+            <Navbar.Brand href="#home">
+                <Link href="/">
+                    <img src="img/logo.png" alt="" title="" style={{width: '150px'}} />
+                </Link>
+            </Navbar.Brand>
             <Nav className="mr-auto">
                 <Link href="/">
                     <a>Home</a>

@@ -14,3 +14,20 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.carousel-caption {
+  top: 15%;
+}
+
+.carousel-caption h3 {
+  font-size: 5rem;
+  font-weight: 900;
+  color: #042141;
+}
+
+.carousel-caption p {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #034FA0;
+  text-transform: uppercase;
+}

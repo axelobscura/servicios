@@ -8,7 +8,7 @@ export const siteTitle = 'Next.js Sample Website'
 
 export default function Layout({ children, home }) {
     return (
-        <Container fluid={true} className="p-0 m-0">
+        <Container fluid={true}>
             <Head>
                 <title>{siteTitle}</title>
                 <link rel="icon" href="/favicon.ico" />
@@ -17,7 +17,7 @@ export default function Layout({ children, home }) {
                 <meta name="twitter:card" content="summary_large_image" />
             </Head>
             <Row>
-                <Col>
+                <Col className="m-0 p-0">
                     <Nav />
                 </Col>
             </Row>

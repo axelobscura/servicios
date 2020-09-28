@@ -14,3 +14,25 @@ a {
 * {
   box-sizing: border-box;
 }
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  position: relative;
+  float: left;
+}
+
+nav ul li a {
+  background-color: #dedede;
+  padding: 10px 30px;
+  margin-right: 10px;
+  font-weight: 900;
+  text-transform: uppercase;
+  display: block;
+}

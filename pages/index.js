@@ -12,7 +12,7 @@ export default function Home() {
       <Nav />
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to Axel.js!
+          CENTRO AUTORIZADO CDMX
         </h1>
       </main>
     </div>

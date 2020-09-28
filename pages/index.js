@@ -12,24 +12,24 @@ export default function Home() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="img/slider2.jpg"
+                src="img/slider1.jpg"
                 alt="First slide"
               />
               <Carousel.Caption>
                 <h3>Servicio Técnico</h3>
-                <p>Servicio profesional de mantenimiento y reparación</p>
+                <p>Servicio profesional de mantenimiento y reparación especializado</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="img/slider1.jpg"
+                src="img/slider2.jpg"
                 alt="Third slide"
               />
 
               <Carousel.Caption>
                 <h3>Servicio Técnico</h3>
-                <p>Servicio profesional de mantenimiento y reparación</p>
+                <p>Servicio profesional de mantenimiento y reparación especializado</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -41,7 +41,7 @@ export default function Home() {
 
               <Carousel.Caption>
                 <h3>Servicio Técnico</h3>
-                <p>Servicio profesional de mantenimiento y reparación</p>
+                <p>Servicio profesional de mantenimiento y reparación especializado</p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>

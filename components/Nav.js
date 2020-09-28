@@ -8,15 +8,18 @@ const Navegador = () => {
         <Navbar bg="light" variant="dark">
             <Navbar.Brand href="#home">
                 <Link href="/">
-                    <img src="img/logo.png" alt="" title="" style={{width: '150px'}} />
+                    <img src="img/logo.png" alt="" title="" style={{width: '200px'}} />
                 </Link>
             </Navbar.Brand>
             <Nav className="mr-auto">
                 <Link href="/">
-                    <a>Home</a>
+                    <a>INICIO</a>
                 </Link>
                 <Link href="/ssr-page">
-                    <a>Server Side Rendering</a>
+                    <a>SERVICIOS</a>
+                </Link>
+                <Link href="/ssr-page">
+                    <a>CONTACTO</a>
                 </Link>
             </Nav>
         </Navbar>

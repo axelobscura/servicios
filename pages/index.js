@@ -2,6 +2,7 @@ import Layout from '../components/Layout'
 import Banner from '../components/Banner'
 import BannerDos from '../components/BannerDos'
 import Jumbotronbanner from '../components/Jumbotronbanner'
+import Footer from '../components/Footer'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Carousel from 'react-bootstrap/Carousel'
@@ -9,9 +10,9 @@ import Carousel from 'react-bootstrap/Carousel'
 export default function Home() {
   return (
     <Layout>
-      <Row>
-        <Col className="m-0 p-0">
-          <Carousel>
+      <Row style={{margin: 0, padding: 0}}>
+        <Col style={{margin: 0, padding: 0}}>
+          <Carousel fluid>
             <Carousel.Item>
               <img
                 className="d-block w-100"
@@ -50,9 +51,10 @@ export default function Home() {
           </Carousel>
         </Col>
       </Row>
-      <Banner />
+      <Banner backColor="#034fa0" />
       <BannerDos />
       <Jumbotronbanner />
+      <Footer backColor="#111111" />
     </Layout>
   )
 }

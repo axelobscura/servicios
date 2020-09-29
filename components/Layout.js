@@ -4,27 +4,25 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
-export const siteTitle = 'Next.js Sample Website'
+export const siteTitle = 'Servicio Técnico - SERVICIO PROFESIONAL DE MANTENIMIENTO Y REPARACIÓN ESPECIALIZADO SAMSUNG'
 
 export default function Layout({ children, home }) {
     return (
         <Container fluid={true}>
             <Head>
                 <title>{siteTitle}</title>
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" type="image/png" href="/img/logo.png" />
                 <meta name="description" content="Learn how to build a personal website using Next.js" />
                 <meta name="og:title" content={siteTitle} />
                 <meta name="twitter:card" content="summary_large_image" />
             </Head>
             <Row>
-                <Col className="m-0 p-0">
+                <Col style={{ margin: 0, padding: 0}}>
                     <Nav />
                 </Col>
             </Row>
             <Row>
-                <Col className="p-0">
-                    {children}
-                </Col>
+                {children}
             </Row>
         </Container>
     )

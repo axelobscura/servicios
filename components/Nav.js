@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 
 const Navegador = () => {
     return(
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="light" expand="lg" style={{ margin: '0', padding: '0'}}>
             <Navbar.Brand href="#home">
                 <Link href="/">
                     <img src="img/logo.png" alt="" title="" style={{width: '200px'}} />

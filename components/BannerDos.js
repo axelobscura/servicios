@@ -8,7 +8,14 @@ import Button from 'react-bootstrap/Button'
 export default function BannerDos() {
     return (
         <Container fluid={true} className="bannerDos">
-            <Row className="mb-5">
+            <Row>
+                <Col styleName="mb-5">
+                    <h1>Reparamos sus equipos de Línea Blanca</h1>
+                    <hr/>
+                    <p><b>Contamos con técnicos capacitados</b><br/>para resolver cada uno de los problemas específicos de la falla que presenta su equipo</p>
+                </Col>
+            </Row>
+            <Row className="mb-5 mt-5">
                 <Col>
                     <Card>
                         <Card.Img variant="top" src="img/lava2.jpg" alt="Servicio Técnico - SERVICIO PROFESIONAL DE MANTENIMIENTO Y REPARACIÓN ESPECIALIZADO SAMSUNG" title="Servicio Técnico - SERVICIO PROFESIONAL DE MANTENIMIENTO Y REPARACIÓN ESPECIALIZADO SAMSUNG" />
@@ -47,13 +54,6 @@ export default function BannerDos() {
                             <Button variant="primary">VER MÁS</Button>
                         </Card.Body>
                     </Card>
-                </Col>
-            </Row>
-            <Row>
-                <Col>
-                    <h1>Reparamos sus equipos de Línea Blanca</h1>
-                    <hr/>
-                    <p><b>Contamos con técnicos capacitados</b><br/>para resolver cada uno de los problemas específicos de la falla que presenta su equipo</p>
                 </Col>
             </Row>
         </Container>

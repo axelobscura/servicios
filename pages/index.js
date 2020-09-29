@@ -1,4 +1,5 @@
 import Layout from '../components/Layout'
+import Banner from '../components/Banner'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Carousel from 'react-bootstrap/Carousel'
@@ -47,6 +48,7 @@ export default function Home() {
           </Carousel>
         </Col>
       </Row>
+      <Banner />
     </Layout>
   )
 }

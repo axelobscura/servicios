@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overflow: hidden;
 }
 
 a {
@@ -50,6 +51,37 @@ a {
 .carousel-item {
   max-height: 450px;
   overflow: hidden;
+}
+
+.navbar a.eltel {
+  background: #d2d2d2;
+  color: #333333;
+}
+
+.banner {
+  padding: 0;
+  margin: 0;
+  background: #034fa0;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.banner h1 {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.banner p {
+  font-weight: 100;
+  color: #ffffff;
+}
+
+.banner p.zonas {
+  font-weight: 100;
+  color: #333333;
+  background: #ffffff;
+  padding: 10px;
+  font-weight: bold;
 }
 
 @media (max-width: 575px) {

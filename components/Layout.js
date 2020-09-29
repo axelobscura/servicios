@@ -22,7 +22,7 @@ export default function Layout({ children, home }) {
                 </Col>
             </Row>
             <Row>
-                <Col>
+                <Col className="p-0">
                     {children}
                 </Col>
             </Row>

@@ -8,7 +8,7 @@ export default function Home() {
     <Layout>
       <Row>
         <Col className="m-0 p-0">
-          <Carousel style={{maxHeight: '700px', overflow: 'hidden'}}>
+          <Carousel>
             <Carousel.Item>
               <img
                 className="d-block w-100"

@@ -16,7 +16,7 @@ a {
 }
 
 .carousel-caption {
-  top: 30%;
+  top: 20%;
 }
 
 .carousel-caption h3 {
@@ -45,4 +45,26 @@ a {
 
 .navbar a.navbar-brand {
   background: transparent;
+}
+
+.carousel-item {
+  max-height: 450px;
+  overflow: hidden;
+}
+
+@media (max-width: 575px) {
+
+  .carousel-caption h3 {
+    font-size: 2rem;
+  }
+  
+  .carousel-caption p {
+    font-size: 0.7rem;
+  }
+
+  .carousel-item {
+    max-height: 250px;
+    overflow: hidden;
+  }
+
 }

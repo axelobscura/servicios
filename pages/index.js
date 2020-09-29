@@ -1,5 +1,7 @@
 import Layout from '../components/Layout'
 import Banner from '../components/Banner'
+import BannerDos from '../components/BannerDos'
+import Jumbotronbanner from '../components/Jumbotronbanner'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Carousel from 'react-bootstrap/Carousel'
@@ -49,6 +51,8 @@ export default function Home() {
         </Col>
       </Row>
       <Banner />
+      <BannerDos />
+      <Jumbotronbanner />
     </Layout>
   )
 }

@@ -12,6 +12,7 @@ const Navegador = () => {
                 </Link>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            {/* 
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
                     <Link href="/">
@@ -25,6 +26,7 @@ const Navegador = () => {
                     </Link>
                 </Nav>
             </Navbar.Collapse>
+            */}
             <Navbar.Collapse className="justify-content-end">
                 <Navbar.Text>
                     <Link href="tel:5562353054"><a className="eltel">(55)6235-3054</a></Link>

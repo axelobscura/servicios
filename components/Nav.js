@@ -30,7 +30,6 @@ const Navegador = () => {
             <Navbar.Collapse className="justify-content-end">
                 <Navbar.Text>
                     <Link href="tel:5562353054"><a className="eltel">(55)6235-3054</a></Link>
-                    <Link href="tel:5543177176"><a className="eltel">(55)4317-7176</a></Link>
                 </Navbar.Text>
             </Navbar.Collapse>
         </Navbar>

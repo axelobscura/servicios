@@ -9,8 +9,8 @@ export default function Banner(props) {
             <Row>
                 <Col>
                     <h1>SERVICIO TÉCNICO</h1>
-                    <p>Somos el servicio de linea blanca que  atendemos todos sus requerimientos<br/>para lavadoras, secadoras, lavasecadoras, congeladores,  refrigeradores, minisplit, etc</p>
-                    <p className="zonas">CDMX, Estado de México, Toluca, Metepec, Lerma, Pachuca</p>
+                    <p>Somos el servicio de linea blanca que  atendemos todos sus requerimientos<br/>para lavadoras, secadoras, lavasecadoras, congeladores,  refrigeradores, etc</p>
+                    <p className="zonas">CDMX, Estado de México, Toluca, Metepec, Lerma</p>
                 </Col>
             </Row>
         </Container>

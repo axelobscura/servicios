@@ -8,7 +8,7 @@ const Navegador = () => {
         <Navbar bg="light" expand="lg" style={{ margin: '0', padding: '0'}}>
             <Navbar.Brand href="#home">
                 <Link href="/">
-                    <img src="img/logo.png" alt="" title="" style={{width: '200px'}} />
+                    SERVICIOS TÉCNICOS ESPECIALIZADOS
                 </Link>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
